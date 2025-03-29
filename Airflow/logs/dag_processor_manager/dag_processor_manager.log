@@ -1,0 +1,973 @@
+[2025-03-27 06:12:32,251] {manager.py:514} INFO - Processing files using up to 2 processes at a time 
+[2025-03-27 06:12:32,254] {manager.py:515} INFO - Process each file at most once every 30 seconds
+[2025-03-27 06:12:32,255] {manager.py:517} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-27 06:12:32,255] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27 06:12:32,264] {manager.py:666} INFO - There are 0 files in /opt/airflow/dags
+[2025-03-27 06:12:32,314] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:12:32,314] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:07:32.314823+00:00
+[2025-03-27 06:12:42,364] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:12:42,365] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:07:42.365868+00:00
+[2025-03-27 06:12:52,392] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:12:52,393] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:07:52.393856+00:00
+[2025-03-27 06:13:02,425] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:13:02,426] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:08:02.426370+00:00
+[2025-03-27 06:13:12,454] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:13:12,455] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:08:12.455513+00:00
+[2025-03-27 06:13:22,486] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:13:22,488] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:08:22.488045+00:00
+[2025-03-27 06:13:32,518] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:13:32,519] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:08:32.519595+00:00
+[2025-03-27 06:13:42,698] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:13:42,699] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:08:42.699614+00:00
+[2025-03-27 06:13:52,734] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:13:52,736] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:08:52.736242+00:00
+[2025-03-27 06:14:02,771] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:14:02,779] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:09:02.778895+00:00
+[2025-03-27 06:14:12,814] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:14:12,815] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:09:12.815582+00:00
+[2025-03-27 06:14:22,848] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:14:22,849] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:09:22.849691+00:00
+[2025-03-27 06:14:32,888] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:14:32,890] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:09:32.890235+00:00
+[2025-03-27 06:14:42,927] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:14:42,928] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:09:42.928389+00:00
+[2025-03-27 06:14:52,961] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:14:52,962] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:09:52.962103+00:00
+[2025-03-27 06:15:02,994] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:15:02,996] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:10:02.996022+00:00
+[2025-03-27 06:15:13,030] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:15:13,031] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:10:13.031633+00:00
+[2025-03-27 06:15:13,788] {manager.py:495} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-27 06:16:31,190] {manager.py:514} INFO - Processing files using up to 2 processes at a time 
+[2025-03-27 06:16:31,192] {manager.py:515} INFO - Process each file at most once every 30 seconds
+[2025-03-27 06:16:31,193] {manager.py:517} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-27 06:16:31,193] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27 06:16:31,198] {manager.py:666} INFO - There are 0 files in /opt/airflow/dags
+[2025-03-27 06:16:31,238] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:16:31,238] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:11:31.238762+00:00
+[2025-03-27 06:16:41,287] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:16:41,288] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:11:41.288404+00:00
+[2025-03-27 06:16:51,324] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:16:51,324] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:11:51.324941+00:00
+[2025-03-27 06:17:01,352] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:17:01,353] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:12:01.353276+00:00
+[2025-03-27 06:17:11,379] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:17:11,380] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:12:11.380635+00:00
+[2025-03-27 06:17:21,408] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:17:21,408] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:12:21.408872+00:00
+[2025-03-27 06:17:31,434] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:17:31,435] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:12:31.435521+00:00
+[2025-03-27 06:17:41,679] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:17:41,680] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:12:41.680179+00:00
+[2025-03-27 06:17:51,709] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:17:51,711] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:12:51.711151+00:00
+[2025-03-27 06:18:01,741] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:18:01,742] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:13:01.742665+00:00
+[2025-03-27 06:18:11,776] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:18:11,778] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:13:11.778076+00:00
+[2025-03-27 06:18:20,487] {manager.py:495} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-27 06:19:32,943] {manager.py:514} INFO - Processing files using up to 2 processes at a time 
+[2025-03-27 06:19:32,960] {manager.py:515} INFO - Process each file at most once every 30 seconds
+[2025-03-27 06:19:32,961] {manager.py:517} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-27 06:19:32,961] {manager.py:663} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27 06:19:32,968] {manager.py:666} INFO - There are 0 files in /opt/airflow/dags
+[2025-03-27 06:19:33,005] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:19:33,005] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:14:33.005908+00:00
+[2025-03-27 06:19:43,031] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:19:43,033] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:14:43.033154+00:00
+[2025-03-27 06:19:53,087] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:19:53,088] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:14:53.088877+00:00
+[2025-03-27 06:20:03,124] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:20:03,125] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:15:03.125888+00:00
+[2025-03-27 06:20:13,160] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:20:13,161] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:15:13.161477+00:00
+[2025-03-27 06:20:23,202] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:20:23,203] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:15:23.203359+00:00
+[2025-03-27 06:20:33,241] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:20:33,243] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:15:33.242969+00:00
+[2025-03-27 06:20:43,534] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:20:43,535] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:15:43.535235+00:00
+[2025-03-27 06:20:53,575] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:20:53,576] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:15:53.576752+00:00
+[2025-03-27 06:21:03,621] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:21:03,621] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:16:03.621935+00:00
+[2025-03-27 06:21:13,653] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:21:13,654] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:16:13.654048+00:00
+[2025-03-27 06:21:23,686] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:21:23,687] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:16:23.687540+00:00
+[2025-03-27 06:21:33,722] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:21:33,723] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:16:33.723737+00:00
+[2025-03-27 06:21:43,764] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2025-03-27 06:21:43,765] {manager.py:1069} INFO - Failing jobs without heartbeat after 2025-03-27 06:16:43.765332+00:00
+[2025-03-27 06:21:45,601] {manager.py:495} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-27T06:30:28.291+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-03-27T06:30:28.298+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-27T06:30:28.302+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-27T06:30:28.307+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T06:30:28.317+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2025-03-27T06:35:28.317+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T06:35:28.324+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2025-03-27T06:40:29.181+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T06:40:29.232+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T06:40:32.288+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/data_ingestion_gcs_dag.py    392  3.03s             0           0
+================================================================================
+[2025-03-27T06:41:02.485+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  4.95s           2025-03-27T06:40:34
+================================================================================
+[2025-03-27T06:41:32.824+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.34s           2025-03-27T06:41:11
+================================================================================
+[2025-03-27T06:42:03.401+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.39s           2025-03-27T06:41:43
+================================================================================
+[2025-03-27T06:42:33.619+0000] {manager.py:520} INFO - DAG data_ingestion_gcs_dag is missing and will be deactivated.
+[2025-03-27T06:42:33.627+0000] {manager.py:530} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2025-03-27T06:42:33.647+0000] {manager.py:534} INFO - Deleted DAG data_ingestion_gcs_dag in serialized_dag table
+[2025-03-27T06:42:33.655+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.14s           2025-03-27T06:42:22
+================================================================================
+[2025-03-27T06:43:03.992+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.07s           2025-03-27T06:42:53
+================================================================================
+[2025-03-27T06:43:34.278+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.30s           2025-03-27T06:43:25
+================================================================================
+[2025-03-27T06:44:04.841+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.25s           2025-03-27T06:44:03
+================================================================================
+[2025-03-27T06:44:35.315+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.26s           2025-03-27T06:44:34
+================================================================================
+[2025-03-27T06:45:05.582+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py    578  1.02s             0           1  1.26s           2025-03-27T06:44:34
+================================================================================
+[2025-03-27T06:45:29.786+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T06:45:29.821+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T06:45:35.891+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py    601  0.01s             0           1  1.29s           2025-03-27T06:45:05
+================================================================================
+[2025-03-27T06:46:06.141+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.19s           2025-03-27T06:45:37
+================================================================================
+[2025-03-27T06:46:36.538+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.46s           2025-03-27T06:46:08
+================================================================================
+[2025-03-27T06:47:07.141+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.28s           2025-03-27T06:46:40
+================================================================================
+[2025-03-27T06:47:37.656+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.27s           2025-03-27T06:47:09
+================================================================================
+[2025-03-27T06:48:07.943+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.11s           2025-03-27T06:47:40
+================================================================================
+[2025-03-27T06:48:38.273+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.21s           2025-03-27T06:48:12
+================================================================================
+[2025-03-27T06:49:08.667+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.58s           2025-03-27T06:48:43
+================================================================================
+[2025-03-27T06:49:39.401+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.10s           2025-03-27T06:49:15
+================================================================================
+[2025-03-27T06:50:09.737+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.26s           2025-03-27T06:49:46
+================================================================================
+[2025-03-27T06:50:30.071+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T06:50:30.114+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T06:50:40.212+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.29s           2025-03-27T06:50:18
+================================================================================
+[2025-03-27T06:51:10.502+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.26s           2025-03-27T06:50:48
+================================================================================
+[2025-03-27T06:51:40.977+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.36s           2025-03-27T06:51:19
+================================================================================
+[2025-03-27T06:52:11.391+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.58s           2025-03-27T06:51:51
+================================================================================
+[2025-03-27T06:52:42.119+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.19s           2025-03-27T06:52:23
+================================================================================
+[2025-03-27T06:53:12.572+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.30s           2025-03-27T06:52:54
+================================================================================
+[2025-03-27T06:53:42.919+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.34s           2025-03-27T06:53:26
+================================================================================
+[2025-03-27T06:54:13.666+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.41s           2025-03-27T06:54:07
+================================================================================
+[2025-03-27T06:54:44.080+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.34s           2025-03-27T06:54:16
+================================================================================
+[2025-03-27T06:55:14.156+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.46s           2025-03-27T06:54:55
+================================================================================
+[2025-03-27T06:55:30.282+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T06:55:30.318+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T06:55:44.451+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.36s           2025-03-27T06:55:27
+================================================================================
+[2025-03-27T06:56:15.006+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.31s           2025-03-27T06:56:11
+================================================================================
+[2025-03-27T06:56:45.329+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  2.13s           2025-03-27T06:56:43
+================================================================================
+[2025-03-27T06:57:15.598+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.37s           2025-03-27T06:57:14
+================================================================================
+[2025-03-27T06:57:45.864+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py   1087  0.66s             1           0  1.37s           2025-03-27T06:57:14
+================================================================================
+[2025-03-27T06:58:16.471+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.36s           2025-03-27T06:57:46
+================================================================================
+[2025-03-27T06:58:47.083+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.33s           2025-03-27T06:58:18
+================================================================================
+[2025-03-27T06:59:17.682+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.28s           2025-03-27T06:58:49
+================================================================================
+[2025-03-27T06:59:48.141+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.38s           2025-03-27T06:59:21
+================================================================================
+[2025-03-27T07:00:18.569+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.39s           2025-03-27T06:59:52
+================================================================================
+[2025-03-27T07:00:30.942+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T07:00:30.971+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T07:00:49.145+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.43s           2025-03-27T07:00:24
+================================================================================
+[2025-03-27T07:01:19.491+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.27s           2025-03-27T07:00:55
+================================================================================
+[2025-03-27T07:01:49.937+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.34s           2025-03-27T07:01:26
+================================================================================
+[2025-03-27T07:02:20.314+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.48s           2025-03-27T07:01:58
+================================================================================
+[2025-03-27T07:02:50.494+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.59s           2025-03-27T07:02:30
+================================================================================
+[2025-03-27T07:03:21.177+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.62s           2025-03-27T07:03:02
+================================================================================
+[2025-03-27T07:03:51.611+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.32s           2025-03-27T07:03:33
+================================================================================
+[2025-03-27T07:04:21.988+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.65s           2025-03-27T07:04:05
+================================================================================
+[2025-03-27T07:04:52.025+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.27s           2025-03-27T07:04:36
+================================================================================
+[2025-03-27T07:05:22.273+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.31s           2025-03-27T07:05:08
+================================================================================
+[2025-03-27T07:05:31.337+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T07:05:31.371+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T07:05:52.793+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.27s           2025-03-27T07:05:39
+================================================================================
+[2025-03-27T07:06:23.311+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.46s           2025-03-27T07:06:11
+================================================================================
+[2025-03-27T07:06:54.018+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.26s           2025-03-27T07:06:43
+================================================================================
+[2025-03-27T07:07:24.504+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.25s           2025-03-27T07:07:14
+================================================================================
+[2025-03-27T07:07:54.770+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.22s           2025-03-27T07:07:45
+================================================================================
+[2025-03-27T07:08:25.452+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.28s           2025-03-27T07:07:59
+================================================================================
+[2025-03-27T07:08:55.718+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.41s           2025-03-27T07:08:30
+================================================================================
+[2025-03-27T07:09:25.867+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.48s           2025-03-27T07:09:02
+================================================================================
+[2025-03-27T07:09:56.212+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.25s           2025-03-27T07:09:34
+================================================================================
+[2025-03-27T07:10:26.616+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.50s           2025-03-27T07:10:05
+================================================================================
+[2025-03-27T07:10:31.656+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T07:10:31.691+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T07:10:57.236+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.33s           2025-03-27T07:10:37
+================================================================================
+[2025-03-27T07:11:27.825+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.33s           2025-03-27T07:11:08
+================================================================================
+[2025-03-27T07:11:57.971+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.62s           2025-03-27T07:11:40
+================================================================================
+[2025-03-27T07:12:28.624+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.44s           2025-03-27T07:12:12
+================================================================================
+[2025-03-27T07:12:58.955+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.30s           2025-03-27T07:12:44
+================================================================================
+[2025-03-27T07:13:29.415+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.49s           2025-03-27T07:13:15
+================================================================================
+[2025-03-27T07:13:59.929+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.40s           2025-03-27T07:13:47
+================================================================================
+[2025-03-27T07:14:29.944+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.38s           2025-03-27T07:14:18
+================================================================================
+[2025-03-27T07:15:00.221+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.38s           2025-03-27T07:14:50
+================================================================================
+[2025-03-27T07:15:30.330+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.54s           2025-03-27T07:15:22
+================================================================================
+[2025-03-27T07:15:31.843+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T07:15:31.878+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T07:16:00.577+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.45s           2025-03-27T07:15:53
+================================================================================
+[2025-03-27T07:16:30.829+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.22s           2025-03-27T07:16:24
+================================================================================
+[2025-03-27T07:17:01.294+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.43s           2025-03-27T07:16:56
+================================================================================
+[2025-03-27T07:17:31.571+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.15s           2025-03-27T07:17:27
+================================================================================
+[2025-03-27T07:17:45.696+0000] {manager.py:520} INFO - DAG data_ingestion_gcs_dag is missing and will be deactivated.
+[2025-03-27T07:17:45.704+0000] {manager.py:530} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2025-03-27T07:17:45.727+0000] {manager.py:534} INFO - Deleted DAG data_ingestion_gcs_dag in serialized_dag table
+[2025-03-27T07:18:01.938+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.69s           2025-03-27T07:17:51
+================================================================================
+[2025-03-27T07:18:32.207+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.05s           2025-03-27T07:18:08
+================================================================================
+[2025-03-27T07:19:02.483+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.32s           2025-03-27T07:18:39
+================================================================================
+[2025-03-27T07:19:33.095+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.28s           2025-03-27T07:19:11
+================================================================================
+[2025-03-27T07:20:03.647+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.29s           2025-03-27T07:19:42
+================================================================================
+[2025-03-27T07:20:31.882+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T07:20:31.922+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T07:20:33.954+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.28s           2025-03-27T07:20:08
+================================================================================
+[2025-03-27T07:21:04.216+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  2.06s           2025-03-27T07:20:41
+================================================================================
+[2025-03-27T07:21:34.489+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.26s           2025-03-27T07:21:12
+================================================================================
+[2025-03-27T07:22:05.004+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.24s           2025-03-27T07:21:43
+================================================================================
+[2025-03-27T07:22:35.282+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.41s           2025-03-27T07:22:15
+================================================================================
+[2025-03-27T07:23:05.361+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.46s           2025-03-27T07:22:47
+================================================================================
+[2025-03-27T07:23:35.617+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.25s           2025-03-27T07:23:18
+================================================================================
+[2025-03-27T07:24:06.147+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.42s           2025-03-27T07:23:50
+================================================================================
+[2025-03-27T07:24:36.524+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.34s           2025-03-27T07:24:21
+================================================================================
+[2025-03-27T07:25:06.969+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.66s           2025-03-27T07:24:53
+================================================================================
+[2025-03-27T07:25:32.112+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T07:25:32.152+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T07:25:37.220+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.43s           2025-03-27T07:25:25
+================================================================================
+[2025-03-27T07:26:07.468+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.40s           2025-03-27T07:25:56
+================================================================================
+[2025-03-27T07:26:37.514+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.40s           2025-03-27T07:26:28
+================================================================================
+[2025-03-27T07:27:07.808+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.50s           2025-03-27T07:27:00
+================================================================================
+[2025-03-27T07:27:38.565+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.24s           2025-03-27T07:27:31
+================================================================================
+[2025-03-27T07:28:09.039+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.50s           2025-03-27T07:27:52
+================================================================================
+[2025-03-27T07:28:39.186+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.63s           2025-03-27T07:28:24
+================================================================================
+[2025-03-27T07:28:50.273+0000] {manager.py:520} INFO - DAG data_ingestion_gcs_dag is missing and will be deactivated.
+[2025-03-27T07:28:50.280+0000] {manager.py:530} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2025-03-27T07:28:50.286+0000] {manager.py:534} INFO - Deleted DAG data_ingestion_gcs_dag in serialized_dag table
+[2025-03-27T07:29:09.462+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.26s           2025-03-27T07:28:55
+================================================================================
+[2025-03-27T07:29:39.963+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.31s           2025-03-27T07:29:21
+================================================================================
+[2025-03-27T07:30:10.255+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.60s           2025-03-27T07:29:53
+================================================================================
+[2025-03-27T07:30:32.128+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2025-03-27T07:30:32.160+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2025-03-27T07:30:41.087+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.16s           2025-03-27T07:30:25
+================================================================================
+[2025-03-27T07:31:11.496+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.19s           2025-03-27T07:30:56
+================================================================================
+[2025-03-27T07:31:41.787+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           0           1  1.23s           2025-03-27T07:31:27
+================================================================================
+[2025-03-27T07:32:12.272+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.45s           2025-03-27T07:32:08
+================================================================================
+[2025-03-27T07:32:42.287+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/data_ingestion_gcs_dag.py                           1           0  1.31s           2025-03-27T07:32:40
+================================================================================
+[2025-03-27T07:33:07.144+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15

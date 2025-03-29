@@ -1,0 +1,45 @@
+[2025-03-27T07:08:30.263+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task1 manual__2025-03-27T07:08:13.264811+00:00 [queued]>
+[2025-03-27T07:08:30.280+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task1 manual__2025-03-27T07:08:13.264811+00:00 [queued]>
+[2025-03-27T07:08:30.280+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-03-27T07:08:30.281+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2025-03-27T07:08:30.282+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-03-27T07:08:30.302+0000] {taskinstance.py:1383} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bigquery_external_table_task1> on 2025-03-27 07:08:13.264811+00:00
+[2025-03-27T07:08:30.316+0000] {standard_task_runner.py:54} INFO - Started process 1445 to run task
+[2025-03-27T07:08:30.322+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'bigquery_external_table_task1', 'manual__2025-03-27T07:08:13.264811+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs_dag.py', '--cfg-path', '/tmp/tmp9g2kncec']
+[2025-03-27T07:08:30.326+0000] {standard_task_runner.py:83} INFO - Job 25: Subtask bigquery_external_table_task1
+[2025-03-27T07:08:30.327+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/data_ingestion_gcs_dag.py
+[2025-03-27T07:08:30.501+0000] {task_command.py:384} INFO - Running <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task1 manual__2025-03-27T07:08:13.264811+00:00 [running]> on host af13dacd80a6
+[2025-03-27T07:08:30.625+0000] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=bigquery_external_table_task1
+AIRFLOW_CTX_EXECUTION_DATE=2025-03-27T07:08:13.264811+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-03-27T07:08:13.264811+00:00
+[2025-03-27T07:08:30.628+0000] {crypto.py:84} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-03-27T07:08:30.629+0000] {base.py:71} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-03-27T07:08:31.081+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1126, in execute
+    table = bq_hook.create_empty_table(
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/google/common/hooks/base_google.py", line 463, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 400, in create_empty_table
+    return self.get_client(project_id=project_id, location=location).create_table(
+  File "/home/airflow/.local/lib/python3.9/site-packages/google/cloud/bigquery/client.py", line 748, in create_table
+    api_response = self._call_api(
+  File "/home/airflow/.local/lib/python3.9/site-packages/google/cloud/bigquery/client.py", line 782, in _call_api
+    return call()
+  File "/home/airflow/.local/lib/python3.9/site-packages/google/api_core/retry.py", line 283, in retry_wrapped_func
+    return retry_target(
+  File "/home/airflow/.local/lib/python3.9/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/airflow/.local/lib/python3.9/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.NotFound: 404 POST https://bigquery.googleapis.com/bigquery/v2/projects/de-zoom-camp-449005/datasets/tate_data_all/tables?prettyPrint=false: Not found: Dataset de-zoom-camp-449005:tate_data_all
+[2025-03-27T07:08:31.102+0000] {taskinstance.py:1401} INFO - Marking task as UP_FOR_RETRY. dag_id=data_ingestion_gcs_dag, task_id=bigquery_external_table_task1, execution_date=20250327T070813, start_date=20250327T070830, end_date=20250327T070831
+[2025-03-27T07:08:31.137+0000] {standard_task_runner.py:102} ERROR - Failed to execute job 25 for task bigquery_external_table_task1 (404 POST https://bigquery.googleapis.com/bigquery/v2/projects/de-zoom-camp-449005/datasets/tate_data_all/tables?prettyPrint=false: Not found: Dataset de-zoom-camp-449005:tate_data_all; 1445)
+[2025-03-27T07:08:31.177+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2025-03-27T07:08:31.212+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
