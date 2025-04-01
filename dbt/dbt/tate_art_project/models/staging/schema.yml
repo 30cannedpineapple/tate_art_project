@@ -1,0 +1,133 @@
+
+version: 2
+
+sources:
+  - name: staging
+    database: "{{ env_var('DBT_DATABASE', 'de-zoom-camp-449005') }}"
+    schema: "{{ env_var('DBT_SCHEMA', 'tate_data_all') }}"
+      # loaded_at_field: record_loaded_at
+    tables:
+      - name: artist_external_table
+      - name: artwork_external_table
+         # freshness:
+           # error_after: {count: 6, period: hour}
+          
+models:
+  - name: staging_artwork_table
+    description: "Artworks collected by the Tate Gallery. Each row describes a piece of artwork and related info."
+    columns:
+      - name: id
+        description: "Unique identifier for the artwork."
+        tests:
+          - not_null:
+              severity: warn
+          - unique:
+              severity: warn
+
+      - name: accession_number
+        description: "Accession number assigned to the artwork."
+
+      - name: artist
+        description: "Name of the artist associated with the artwork."
+
+      - name: artistRole
+        description: "Role of the artist, e.g. artist, after, attributed to"
+
+      - name: artistId
+        description: "Unique identifier for the artist."
+        test:
+          - relationships:
+              to: ref('staging_artist_table')
+              field: id
+              severity: warn
+
+      - name: title
+        description: "Title of the artwork."
+
+      - name: dateText
+        description: "Text representation of the artwork's date."
+
+      - name: medium
+        description: "Material or technique used in the artwork."
+
+      - name: creditLine
+        description: "Information about how the artwork was acquired."
+
+      - name: year
+        description: "Year the artwork was created."
+        type: int64
+
+      - name: acquisitionYear
+        description: "Year the artwork was acquired by the Tate Gallery."
+        type: int64
+      
+      - name: age_at_acquisition
+        description: "How long the artwork had been created at the time of acquisition."
+        type: int64
+
+      - name: dimensions
+        description: "General dimensions of the artwork."
+
+      - name: width
+        description: "Width of the artwork in specified units."
+        type: int64
+
+      - name: height
+        description: "Height of the artwork in specified units."
+        type: int64
+
+      - name: depth
+        description: "Depth of the artwork in specified units."
+
+      - name: units
+        description: "Measurement units used (typically mm)."
+
+      - name: inscription
+        description: "Any inscription found on the artwork."
+
+      - name: thumbnailCopyright
+        description: "Copyright information for the artwork thumbnail."
+
+      - name: thumbnailUrl
+        description: "URL to the artwork's thumbnail image."
+
+      - name: url
+        description: "URL to the artwork's page on Tate Gallery."
+
+  - name: staging_artist_table
+    description: "Table containing artist information including biographical details."
+    columns:
+      - name: id
+        description: "Unique identifier for the artist."
+        tests:
+          - unique
+          - not_null
+      
+      - name: name
+        description: "Full name of the artist."
+
+      - name: gender
+        description: "Gender of the artist (i.e., Male, Female)."
+
+      - name: dates
+        description: "Lifespan of the artist in a string format (e.g., 1881–1973)."
+
+      - name: yearOfBirth
+        description: "Year the artist was born."
+        tests:
+          - not_null
+
+      - name: yearOfDeath
+        description: "Year the artist passed away, if applicable."
+
+      - name: artistAge
+        description: "How old the artist is or how long they lived"
+
+      - name: placeOfBirth
+        description: "City or country where the artist was born."
+
+      - name: placeOfDeath
+        description: "City or country where the artist passed away."
+
+      - name: url
+        description: "Reference URL for more details about the artist."

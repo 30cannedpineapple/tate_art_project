@@ -1,0 +1,63 @@
+models:
+  - name: artwork_artwork_table
+    description: "A table containing artwork details along with artist information."
+    columns:
+      - name: artworkId
+        description: "Unique identifier for the artwork."
+        tests:
+          - not_null
+          - unique
+      - name: accession_number
+        description: "Accession number of the artwork."
+      - name: artist
+        description: "Name of the primary artist associated with the artwork."
+      - name: artistRole
+        description: "Role of the artist in the creation of the artwork."
+      - name: artistId
+        description: "Unique identifier for the artist."
+      - name: title
+        description: "Title of the artwork."
+      - name: dateText
+        description: "Date of creation or acquisition."
+      - name: medium
+        description: "The medium or materials used in the artwork."
+      - name: creditLine
+        description: "Information about the credit or acquisition of the artwork."
+      - name: age_at_acquisition
+        description: "Age of the artwork at the time of acquisition."
+      - name: dimensions
+        description: "Overall dimensions of the artwork."
+      - name: width
+        description: "Width of the artwork."
+      - name: height
+        description: "Height of the artwork."
+      - name: depth
+        description: "Depth of the artwork, if applicable."
+      - name: units
+        description: "Measurement units used for dimensions."
+      - name: inscription
+        description: "Any inscriptions present on the artwork."
+      - name: thumbnailCopyright
+        description: "Copyright information for the artwork’s thumbnail."
+      - name: thumbnailUrl
+        description: "URL of the artwork’s thumbnail image."
+      - name: artworkUrl
+        description: "URL of the artwork’s detail page."
+      - name: artistName
+        description: "Full name of the artist."
+      - name: gender
+        description: "Gender of the artist."
+      - name: artistDates
+        description: "Lifespan dates of the artist."
+      - name: yearOfBirth
+        description: "Year of birth of the artist."
+      - name: yearOfDeath
+        description: "Year of death of the artist (if applicable)."
+      - name: artistAge
+        description: "Age of the artist at the time of death or current age if still living."
+      - name: placeOfBirth
+        description: "Birthplace of the artist."
+      - name: placeOfDeath
+        description: "Place where the artist passed away."
+      - name: artistUrl
+        description: "URL of the artist’s detail page."

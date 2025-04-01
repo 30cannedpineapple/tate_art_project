@@ -1,0 +1,14 @@
+services:
+  dbt-bq-dtc:
+    build:
+      context: .
+      target: dbt-bigquery
+      dockerfile: Dockerfile
+    image: dbt/bigquery
+    volumes:
+      - ./dbt/tate_art_project:/usr/app/tate_art_project
+      - /c/Users/lidu0/.dbt:/root/.dbt
+      - /c/Users/lidu0/.google/credentials/google_credentials.json:/.google/credentials/google_credentials.json
+    #network_mode: host #remove this line unless you have a specific need.
+    working_dir: /usr/app/tate_art_project 
+    command: dbt run
